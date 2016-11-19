@@ -18,7 +18,8 @@
 	url = https://github.com/torch/cwrap.git
 [submodule "extra/cunn"]
 	path = extra/cunn
-	url = https://github.com/torch/cunn.git
+	url = https://github.com/fyu/cunn.git
+        branch = drn
 [submodule "extra/cutorch"]
 	path = extra/cutorch
 	url = https://github.com/torch/cutorch.git
@@ -51,16 +52,14 @@
 	url = https://github.com/torch/argcheck.git
 [submodule "extra/cudnn"]
 	path = extra/cudnn
-	url = https://github.com/soumith/cudnn.torch.git
+	url = https://github.com/fyu/cudnn.torch.git
+	branch = drn
 [submodule "exe/trepl"]
 	path = exe/trepl
 	url = https://github.com/torch/trepl.git
 [submodule "extra/nnx"]
 	path = extra/nnx
 	url = https://github.com/clementfarabet/lua---nnx.git
-[submodule "extra/nn"]
-	path = extra/nn
-	url = https://github.com/torch/nn.git
 [submodule "exe/env"]
 	path = exe/env
 	url = https://github.com/torch/env.git
@@ -82,3 +81,7 @@
 [submodule "extra/lua-cjson"]
 	path = extra/lua-cjson
 	url = https://github.com/mpx/lua-cjson
+[submodule "extra/nn"]
+	path = extra/nn
+	url = https://github.com/fyu/nn.git
+	branch = drn
