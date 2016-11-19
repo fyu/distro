@@ -16,10 +16,6 @@
 [submodule "pkg/cwrap"]
 	path = pkg/cwrap
 	url = https://github.com/torch/cwrap.git
-[submodule "extra/cunn"]
-	path = extra/cunn
-	url = https://github.com/fyu/cunn.git
-        branch = drn
 [submodule "extra/cutorch"]
 	path = extra/cutorch
 	url = https://github.com/torch/cutorch.git
@@ -84,4 +80,8 @@
 [submodule "extra/cudnn"]
 	path = extra/cudnn
 	url = https://github.com/fyu/cudnn.torch.git
+	branch = drn
+[submodule "extra/cunn"]
+	path = extra/cunn
+	url = https://github.com/fyu/cunn.git
 	branch = drn
